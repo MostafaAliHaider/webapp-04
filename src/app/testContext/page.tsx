@@ -7,7 +7,7 @@ export const counterContextProvider = createContext();
 
 const Page = () => {
 
-    const [count, setCount] = useState(0);
+    const [count, setCount] = useState(0); 
     
     const increaseHandler = () => {
         setCount(count + 1)
